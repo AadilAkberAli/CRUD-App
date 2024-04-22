@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:padding="5dp"
+    android:background="@drawable/border"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titletextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="top"
+            android:maxLines="2"
+            android:paddingLeft="5dp"
+            android:text="aadilakberali01@gmail.com"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/bodytextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="top"
+            android:maxLines="2"
+            android:paddingLeft="5dp"
+            android:text="abcdefghijy"
+            android:textSize="25sp"
+            android:textStyle="normal"
+            tools:ignore="RtlHardcoded" />
+    </LinearLayout>
+
+
+</RelativeLayout>

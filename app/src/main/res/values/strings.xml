@@ -1,0 +1,8 @@
+
+<resources>
+    <string name="app_name">CreteAPP</string>
+    <string name="Create_Post">Create Post</string>
+    <string name="View_Post">View Post</string>
+    <string name="Log_Out">Log Out</string>
+
+</resources>
